@@ -1,0 +1,72 @@
+
+div{
+
+    background: url(c.png);
+    background-size: 1000px 1100px;
+    background-repeat:repeat;
+    animation:light 10s linear forwards infinite; 
+    -webkit-animation:light 10s linear forwards infinite; 
+  }
+  @keyframes light{
+    0%{
+      background-position: 0 0;
+    }
+    20%{
+      background-position: 20px 20px;
+    }
+    40%{
+      background-position: 40px 40px;
+    }
+    60%{
+      background-position: 60px 60px;
+    }
+    80%{
+      background-position: 80px 80px;
+    }
+    100%{
+      background-position: 100px 100px;
+    }
+  }
+  @-webkit-keyframes light{
+    0%{
+      background-position: 0 0;
+    }
+    20%{
+      background-position: 20px 20px;
+    }
+    40%{
+      background-position: 40px 40px;
+    }
+    60%{
+      background-position: 60px 60px;
+    }
+    80%{
+      background-position: 80px 80px;
+    }
+    100%{
+      background-position: 100px 100px;
+    }
+  }
+
+figure{
+     margin-top: 13%;
+    align-items: center;
+    align-content: center;
+    
+}
+.img2 {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -15%;
+    
+}
+.img1 {
+    align-content: center;
+    text-align: center;
+    width: 65%;
+    margin-left: 18%;
+    margin-top: 9%;
+    
+    
+}
